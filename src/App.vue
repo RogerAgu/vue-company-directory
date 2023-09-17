@@ -1,9 +1,9 @@
 <script setup>
-import NavMenu from '@/components/NavMenu.vue'
+import Main from './components/Main.vue'
 import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
   <NavBar />
-  <h1> Main content</h1>
+  <Main />
 </template>

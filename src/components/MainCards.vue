@@ -4,15 +4,15 @@ import MainCardsSingle from "./MainCardsSingle.vue";
 </script>
 
 <template>
-    <div class="wrapper">
-     <MainCardsSingle />
+    <div class="sub-wrapper">
+     <MainCardsSingle  v-for="n in 20"/>
 
     </div>
 </template>
 
 
-<style lang="postcss">
-.wrapper{
-    @apply container mx-auto flex flex-col;
+<style scoped lang="postcss">
+.sub-wrapper{
+    @apply grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
 }
 </style>

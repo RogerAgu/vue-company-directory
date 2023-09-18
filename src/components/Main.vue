@@ -6,7 +6,7 @@ import MainCards from "./MainCards.vue";
 
 <template><div class="wrapper">
     <MainSearch/>
-    <MainCards />
+    <MainCards/>
     </div>
 </template>
 

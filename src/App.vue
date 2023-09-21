@@ -1,9 +1,9 @@
 <script setup>
-import Main from './components/Main.vue'
-import NavBar from './components/NavBar.vue';
+import MainPage from '@/components/MainPage.vue'
+import NavBar from '@/components/NavBar.vue';
 </script>
 
 <template>
   <NavBar />
-  <Main />
+  <MainPage />
 </template>

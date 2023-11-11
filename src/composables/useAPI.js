@@ -7,7 +7,6 @@ const loading = ref(false)
 const activePage = ref(1)
 const pageSize = ref(8)
 
-
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
   auth: {
@@ -15,6 +14,7 @@ const api = axios.create({
     password: import.meta.env.VITE_API_PASSWORD,
   },
 })
+
 const getEmployees = async () => {
   loading.value = true
   const { data, headers } = await api.get('/api/employees', {
